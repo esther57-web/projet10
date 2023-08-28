@@ -1,0 +1,190 @@
+body {
+    font-family: Bai Jamjuree;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+
+
+}
+
+picture img {
+    width: 100%;
+}
+
+.picture {
+    position: absolute;
+    width: 100%;
+}
+
+svg {
+    justify-self: center;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 12px;
+}
+
+.container img {
+    scale: 0.8;
+    margin: auto;
+}
+
+.block {
+    display: flex;
+    text-align: start;
+}
+
+.one {
+    padding-top: 60px;
+}
+
+h1, h2, h3 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+.block2 {
+    display: flex;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    justify-self: center;
+    margin-right: 20px;
+}
+
+.button1 {
+    background-color: hsl(171, 66%, 44%);
+    display: inline;
+}
+
+.button2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.two {
+    padding: 40px;
+}
+
+.frns img {
+    margin: 20px;
+}
+
+.frns {
+    margin-bottom: 50px;
+    
+}
+
+.footer {
+    display: flex;
+    background-color: hsla(201, 11%, 66%, 0.2);
+    justify-content: space-around;
+    padding: 0;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+
+.logoc {
+    scale: 0.3;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+li:active {
+    color: hsl(171, 66%, 44%);
+}
+
+.logo svg {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logo svg:active {
+    color: hsl(171, 66%, 44%);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:800px) {
+    .block {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .block2 {
+        display: block;
+    }
+
+    .container img {
+        scale: 0.5;
+    }
+
+    .footer {
+        height: fit-content;
+        display: block;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frns img {
+        scale: 0.8;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        text-align: center;
+    }
+
+}
+
